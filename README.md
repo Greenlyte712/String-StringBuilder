@@ -1,4 +1,4 @@
-Click the code 
+Click the "code" button to the upper left to see how this will look like in the console, for some reason this preview view is messed up.
 
 
 console output:
