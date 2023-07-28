@@ -2,12 +2,8 @@ package main;
 
 public class Main
 {
-
 	static void change(String str, int number, StringBuilder sb, Dragon dragon)
 	{
-
-		
-
 		System.out.println(" -----------------------");
 		System.out.println("| inside method:        |");
 		System.out.println("|                       |");
@@ -17,12 +13,10 @@ public class Main
 		System.out.println(" -----------------------");
 
 		number = 300;
-
 	}
 
 	public static void main(String[] args)
 	{
-
 		System.out.println();
 		System.out.println("before change:");
 		System.out.println();
@@ -51,20 +45,16 @@ public class Main
 		System.out.println(b + " <------- No");
 		System.out.println(c + " <------- Yes");
 		System.out.println(d + " <------- Yes");
-
 	}
-
 }
 
 class Dragon
 {
-
 	private String name;
 	private int age;
 
 	public Dragon(String name, int age)
 	{
-
 		this.name = name;
 		this.age = age;
 	}
@@ -93,7 +83,5 @@ class Dragon
 	public String toString()
 	{
 		return "{\"name\":" + "\"" + name + "\"" + "," + "\"age\":" + age + "}";
-
 	}
-
 }
